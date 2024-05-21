@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+  }
+  h1 {
+    color: red;
+  }
+  h3 {
+    color: orange;
+  }
+h4 {color: green;
+}
+.box0 {
+
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    
+    }
+
+    .röd, .gul, .grön {
+      width: 100px;
+      height: 100px;
+
+    }
+
+    .gul, .grön {
+
+      margin-top: 5px;
+
+    }
+
+    .röd {
+
+      background-color: red;
+      border: 10px solid darkred;
+    }
+
+    .gul {
+
+      background-color: yellow;
+      border: 10px solid orange
+
+    }
+
+    .grön {
+
+      background-color: green;
+      border: 10px solid darkgreen
+    }

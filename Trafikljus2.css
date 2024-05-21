@@ -1,0 +1,77 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+  }
+
+h1 {color: blue;}
+
+
+
+.box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 50px;
+    display: inline-block;
+  } 
+  
+  .size {
+    width: 100px;
+    height: 100px;
+
+  }
+  
+.rödinner {
+
+    height: 50%;
+    width: 100%;
+
+    background-color: lightcoral;
+}
+
+  .röd {
+
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    border: solid darkred 5px;
+
+  }
+
+  .gulinner {
+
+    height: 50%;
+    width: 50%;
+
+    background-color: lightyellow;
+    
+  }
+  .gul {
+
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: solid orange 5px; margin-top: 5px;
+  }
+
+  .gröninner {
+
+    height:50%;
+    width:50%;
+
+    background-color: lightgreen;
+  }
+  .grön {
+
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: solid darkgreen 5px; margin-top: 5px;
+  }
